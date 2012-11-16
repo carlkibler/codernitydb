@@ -5,8 +5,8 @@ A pure python, NoSQL, fast database. Clone from https://bitbucket.org/codernity/
 
 CodernityDB is opensource, pure Python (no 3rd party dependency), fast (really fast check Speed if you don't believe in words), multiplatform, schema-less, NoSQL_ database. It has optional support for HTTP server version (CodernityDB-HTTP-link_), and also Python client library (CodernityDB-PyClient-link_) that aims to be 100% compatible with embeded version.
 
-.. image:: http://labs.codernity.com/codernitydb/_images/CodernityDB.png
-    :align: center
+![image](http://labs.codernity.com/codernitydb/_images/CodernityDB.png)
+
 
 
 You can call it a more advanced key-value database. With multiple key-values indexes in the same engine. Also CodernityDB supports functions that are executed inside database.
@@ -15,7 +15,7 @@ Main documentation is located at http://labs.codernity.com/codernitydb
 
 
 Key features
-~~~~~~~~~~~~
+---
 
 * Native Python database
 * Multiple indexes
@@ -25,26 +25,26 @@ Key features
 
 
 Install
-~~~~~~~
+---
 
 Because CodernityDB is pure Python you need to perform standard installation for Python applications::
 
-   pip install CodernityDB
+    pip install CodernityDB
 
 or using easy_install::
 
-   easy_install CodernityDB
+    easy_install CodernityDB
 
 or from sources::
 
-   hg clone ssh://hg@bitbucket.org/codernity/codernitydb
-   cd codernitydb
-   python setup.py install
+    hg clone ssh://hg@bitbucket.org/codernity/codernitydb
+    cd codernitydb
+    python setup.py install
 
 
 
 Contribute & Bugs & Requests
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
 
 CodernityDB is one of projects developed and released by Codernity_, so you can contact us directly in any case.
 
@@ -54,7 +54,7 @@ To fill a bug please also use Bitbucket.
 
 
 Support
-~~~~~~~
+---
 
 In case of any problems, feature request you can also contact us directly.
 
