@@ -1,7 +1,5 @@
-CodernityDB
-===========
-
-A pure python, NoSQL, fast database. Clone from https://bitbucket.org/codernity/codernitydb/
+CodernityDB pure python, NoSQL, fast database
+=============================================
 
 CodernityDB is opensource, pure Python (no 3rd party dependency), fast (really fast check Speed if you don't believe in words), multiplatform, schema-less, NoSQL_ database. It has optional support for HTTP server version (CodernityDB-HTTP-link_), and also Python client library (CodernityDB-PyClient-link_) that aims to be 100% compatible with embeded version.
 
