@@ -80,7 +80,7 @@ class Index(object):
 
     def open_index(self):
         if not os.path.isfile(os.path.join(self.db_path, self.name + '_buck')):
-            raise IndexException("Doesn't exists")
+            raise IndexException("Does not exist")
         self.buckets = io.open(
             os.path.join(self.db_path, self.name + "_buck"), 'r+b', buffering=0)
         self._fix_params()
@@ -112,7 +112,7 @@ class Index(object):
         self.buckets.seek(0)
         data = marshal.dumps(props)
         if len(data) > self._start_ind:
-            raise IndexException("To big props")
+            raise IndexException("Properties too long")
         self.buckets.write(data)
         self.flush()
         self.buckets.seek(0, 2)
